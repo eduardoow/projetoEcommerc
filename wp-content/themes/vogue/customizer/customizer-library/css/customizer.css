@@ -1,0 +1,71 @@
+#customize-theme-controls #accordion-section-vogue-site-layout-section .accordion-section-title:hover,
+#customize-theme-controls #accordion-section-vogue-header-section .accordion-section-title:hover,
+#customize-theme-controls #accordion-section-vogue-layouts-section .accordion-section-title:hover,
+#customize-theme-controls #accordion-section-vogue-slider-section .accordion-section-title:hover,
+#customize-theme-controls #accordion-section-vogue-blog-section .accordion-section-title:hover,
+#customize-theme-controls #accordion-section-vogue-website-section .accordion-section-title:hover,
+#customize-theme-controls #accordion-section-colors .accordion-section-title:hover,
+#customize-theme-controls #accordion-section-vogue-typography-section .accordion-section-title:hover,
+#customize-theme-controls #accordion-section-vogue-social-section .accordion-section-title:hover,
+#customize-theme-controls #accordion-section-vogue-footer-section .accordion-section-title:hover {
+    background-color: #006CC9;
+    color: #FFF;
+}
+
+#customize-controls .control-section .customize-section-title h3 {
+	color: inherit;
+}
+
+#accordion-section-vogue_premium a.button {
+    background-color: #006CC9;
+    color: #FFF;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1) inset;
+    border: 0;
+    position: relative;
+    top: -2px;
+}
+#accordion-section-vogue_premium a.button:hover {
+    background-color: #0952A9;
+    color: #FFF;
+}
+
+.kaira-upsell {
+    margin-top: 20px;
+}
+.kaira-upsell b {
+    font-weight: 500;
+    color: #006cc9;
+}
+.kaira-upsell-desc {
+    font-size: 11px;
+    color: rgb(142, 142, 142);
+}
+.vogue-upgrade-txt {
+    font-size: 11px;
+    line-height: 14px;
+    padding: 5px 0 0;
+}
+#customize-control-vogue-header-layout .description {
+    font-size: 11px;
+    padding: 2px 0 5px;
+}
+#customize-control-vogue-header-layout .description b {
+    color: #006CC9;
+}
+
+#customize-control-blogdescription,
+#customize-control-vogue-titlebar-centered,
+#customize-control-vogue-header-remove-topbar,
+#customize-control-vogue-header-layout,
+#customize-control-vogue-header-menu-text,
+#customize-control-vogue-slider-cats,
+#customize-control-vogue-blog-layout,
+#customize-control-background_color,
+#customize-control-vogue-secondary-color,
+#customize-control-vogue-body-font-color,
+#customize-control-vogue-website-head-no,
+#customize-control-vogue-footer-layout {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 0 0 25px;
+    margin-bottom: 20px;
+}

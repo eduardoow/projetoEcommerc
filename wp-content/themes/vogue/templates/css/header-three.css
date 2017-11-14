@@ -1,0 +1,420 @@
+/*--------------------------------------------------------------
+Vogue - Header Standard Styling
+--------------------------------------------------------------*/
+
+.site-header > .site-container {
+    position: relative;
+    text-align: left;
+}
+.site-header-topbar > .site-container {
+    position: relative;
+}
+.site-topbar-left {
+    padding: 0;
+}
+.site-topbar-right {
+    padding: 2px 0 0 0;
+}
+.site-branding {
+    float: left;
+    display: block;
+}
+a.site-logo-img {
+    display: inline-block;
+    vertical-align: middle;
+}
+.site-title {
+    margin: 0;
+    padding: 0 0 12px;
+    font-size: 72px;
+    line-height: 1.2em;
+    font-weight: 300;
+}
+.site-title-img {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 0 12px;
+}
+.site-description {
+    margin: 0;
+    padding: 0 0 14px;
+    font-size: 13px;
+    line-height: 1.2em;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: inherit;
+}
+.site-description-img {
+    padding: 10px 0 5px;
+}
+
+.main-navigation {
+    float: right;
+    position: absolute;
+    right: 30px;
+    bottom: 0;
+    border: 0;
+    background: none !important;
+}
+.main-navigation li a {
+    padding: 55px 20px 57px;
+}
+
+#primary-menu,
+#main-menu > div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header-cart {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0;
+}
+
+.header-cart {
+    color: #000;
+    font-weight: 400;
+}
+a.header-cart-contents {
+    color: inherit;
+    padding: 55px 0 57px 20px;
+}
+.header-cart-amount {
+    
+}
+.header-cart-checkout {
+    margin: 0 0 0 4px;
+}
+
+.menu-search {
+    display: inline-block;
+    margin: 0 0 0 5px;
+    vertical-align: middle;
+    font-size: 15px;
+}
+.search-btn {
+    padding: 5px 0 5px 5px;
+    cursor: pointer;
+}
+
+.search-block {
+    position: absolute;
+    background-color: #FEFEFE;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-top: 0;
+    border-radius: 0 0 3px 3px;
+    top: 40px;
+    right: 30px;
+    padding: 8px 9px;
+    z-index: 99;
+    display: none;
+    opacity: 0;
+}
+.search-block .search-field {
+    font-size: 16px;
+    margin: 0;
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    border-radius: 0;
+    background-color: #FFF;
+    width: 250px;
+    font-weight: 200;
+    outline: none;
+    color: inherit;
+    box-sizing: border-box;
+}
+.search-block .search-submit {
+    display: none;
+}
+    
+.show-site-search .search-block {
+    display: block;
+}
+
+.main-navigation ul ul {
+    top: 132px;
+}
+
+/* -------- Header Compact -------- */
+
+.site-header-compact .site-title {
+    padding: 0 0 12px;
+}
+.site-header-compact .site-description {
+    padding: 0 0 12px;
+}
+
+.site-header-compact .search-block {
+    top: 35px;
+}
+
+.site-header-compact .header-cart {
+    position: relative;
+    top: -1px;
+}
+.site-header-compact a.header-cart-contents {
+    padding: 50px 0 50px 20px;
+}
+.site-header-compact .main-navigation li a {
+    padding: 50px 20px 50px;
+}
+.site-header-compact .main-navigation ul ul {
+    top: 120px;
+}
+
+#page {
+    position: relative;
+    right: 0;
+    
+    -webkit-transition: right 0.4s ease 0s;
+     -moz-transition: right 0.4s ease 0s;
+      -ms-transition: right 0.4s ease 0s;
+       -o-transition: right 0.4s ease 0s;
+          transition: right 0.4s ease 0s;
+}
+
+@media screen and (max-width: 980px) {
+    
+    .site-title {
+        font-size: 54px !important;
+    }
+    
+    .header-menu-button {
+        display: block;
+        padding: 43px 0 49px 60px;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+    .header-menu-button i {
+        font-size: 14px;
+        vertical-align: middle;
+        position: relative;
+        top: 1px;
+    }
+    .header-menu-button span {
+        vertical-align: middle;
+        margin: 0 0 0 6px;
+    }
+    .site-header-compact .header-cart,
+    .header-cart {
+        position: absolute;
+        top: 15px;
+    }
+    a.header-cart-contents {
+        text-align: left;
+        padding: 7px 0;
+    }
+    
+    #main-menu > div,
+    .main-navigation ul {
+        display: block;
+    }
+    
+    .main-navigation #main-menu {
+        box-shadow: 1px 0 0 0 rgba(0, 0, 0, 0.08) inset;
+        position: fixed;
+        top: 0;
+        right: -280px;
+        width: 280px;
+        max-width: 100%;
+        -ms-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 58px 22px 30px 22px;
+        z-index: 99999;
+        height: 100%;
+        overflow: auto;
+        -webkit-transition: right 0.4s ease 0s;
+        -moz-transition: right 0.4s ease 0s;
+        -ms-transition: right 0.4s ease 0s;
+        -o-transition: right 0.4s ease 0s;
+        transition: right 0.4s ease 0s;
+    }
+    .main-navigation li {
+        display: block;
+        float: none;
+    }
+    .main-navigation li a {
+        display: block;
+        float: none;
+        padding: 7px 0;
+        text-align: left;
+    }
+    
+    .main-navigation ul ul {
+        position: relative !important;
+        top: 0 !important;
+        left: 0 !important;
+        float: none !important;
+        padding: 0;
+        margin: 0;
+        display: none;
+    }
+    .main-navigation ul ul li:last-child a,
+    .main-navigation ul ul li a {
+        width: auto;
+    }
+    .main-navigation ul ul li a {
+        background: none !important;
+    }
+    
+    #primary-menu {
+        display: block;
+    }
+    .main-menu-close {
+        display: block;
+        border-radius: 4px;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 30px;
+        text-align: center;
+        padding: 0 8px 0 12px;
+        height: 40px;
+        line-height: 38px;
+        cursor: pointer;
+    }
+    .main-menu-close .fa-angle-left {
+        position: relative;
+        left: -4px;
+    }
+    
+    body.admin-bar .main-navigation #main-menu {
+        padding: 88px 22px 30px 22px;
+    }
+    body.admin-bar .header-cart {
+        top: 45px;
+    }
+    body.admin-bar .main-menu-close {
+        top: 40px;
+    }
+    
+}
+
+@media only screen and (max-width: 782px) {
+    
+    .site-header-topbar {
+        padding: 5px 0 0;
+    }
+    .site-topbar-left,
+    .site-topbar-right {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .site-topbar-left {
+        padding: 2px 0 2px;
+    }
+    .site-topbar-left .menu {
+        display: inline-block;
+    }
+    .site-topbar-left ul {
+        padding: 2px 0;
+    }
+    .site-topbar-right {
+        padding: 0 0 8px !important;
+    }
+    
+    .site-header .site-container {
+        text-align: center;
+        padding: 0;
+    }
+    
+    .search-block {
+        position: relative;
+        top: 0;
+        right: 0;
+    }
+    .search-block .search-field {
+        margin: 0;
+        width: 100%;
+        font-size: 17px;
+        padding: 4px 6px;
+    }
+    
+    .site-branding {
+        width: 100%;
+        float: none;
+        text-align: center;
+        padding: 4px 20px;
+    }
+    .site-branding a {
+        display: inline-block;
+    }
+    .site-header-compact .site-branding {
+        padding: 0;
+    }
+    .site-title {
+        font-size: 48px !important;
+        line-height: 50px;
+        padding: 0 0 8px;
+    }
+    .site-description {
+        font-size: 12px;
+        padding: 0 0 8px;
+    }
+    .site-description-img {
+        padding: 5px 0 2px;
+    }
+    .site-header-compact .site-title {
+        padding: 0 0 8px;
+    }
+    .site-header-compact .site-description {
+        padding: 0 0 8px;
+    }
+    
+    .header-cart {
+        float: none;
+        text-align: center;
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0 0 2px;
+    }
+    a.header-cart-contents {
+    }
+    .main-navigation {
+        width: 100%;
+        float: none;
+        text-align: center;
+        padding: 5px 20px;
+        position: relative;
+        right: 0;
+        border-top: 1px solid rgba(0, 0, 0, 0.08);
+    }
+    .main-navigation li {
+        text-align: left;
+    }
+    .header-menu-button {
+        margin: 0;
+        padding: 6px 0 12px;
+        display: block;
+    }
+    
+    .menu-search {
+        padding: 0;
+        float: none;
+        display: inline-block;
+        vertical-align: middle;
+        box-shadow: none;
+        margin: 0 15px 0 0;
+    }
+    
+    body.admin-bar .main-navigation #main-menu {
+        padding: 98px 22px 30px 22px;
+    }
+    body.admin-bar .header-cart {
+        top: 55px;
+    }
+    body.admin-bar .main-menu-close {
+        top: 50px;
+    }
+    
+}
+
+body.show-main-menu #main-menu {
+    right: 0px;
+}
+body.show-main-menu #page {
+    right: 280px;
+}

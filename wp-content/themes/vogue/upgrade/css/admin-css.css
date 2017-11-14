@@ -1,0 +1,33 @@
+span.premium-link {
+	color: #00b9eb;
+}
+
+/* ---- Category ID Column ---- */
+
+.cat_id_note {
+    display: block;
+    font-size: 10px;
+    color: #999;
+}
+.column-cat_id {
+    width: 15%;
+}
+
+/* ---- Show / Hide Widget areas ---- */
+
+body.vogue-footer-layout-social.widgets-php #vogue-site-footer-standard {
+    display: none !important;
+}
+
+body.widgets-php .widgets-holder-wrap {
+    box-shadow: none;
+    border: 0;
+}
+
+body.widgets-php #sidebar-1,
+body.vogue-footer-layout-standard.widgets-php #vogue-site-footer-standard {
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+

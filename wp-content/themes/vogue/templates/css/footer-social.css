@@ -1,0 +1,83 @@
+/*--------------------------------------------------------------
+Vogue - Footer Social Styling
+--------------------------------------------------------------*/
+
+.site-footer-social {
+    border-top: 1px solid #efefef;
+    text-align: center;
+    margin: 0;
+    padding: 0 30px;
+}
+
+.site-footer-icons {
+    padding: 90px 0 90px;
+}
+
+.footer-social-icon {
+    display: inline-block;
+    font-size: 26px;
+    line-height: 14px;
+    margin: 0 14px 15px;
+    text-align: center;
+    color: inherit;
+}
+.site-footer-icon-text {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.site-footer-social-ad {
+    font-size: 15px;
+    padding: 4px 0 4px;
+}
+.site-footer-social-ad .fa {
+    font-size: 16px;
+    margin: 0 4px 0 0;
+}
+
+.site-footer-social-copy {
+    font-size: 11px;
+    margin: 5px 0 0;
+}
+
+.site-footer-bottom-bar {
+    background-color: #efefef;
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+    padding: 7px 0 10px;
+    color: #000;
+    text-align: center;
+}
+
+.scroll-to-top {
+    bottom: 52px;
+}
+
+@media only screen and (max-width: 960px) {
+    
+    .site-footer-icons {
+        padding: 70px 0 60px;
+    }
+    .footer-social-icon {
+        line-height: 14px;
+        margin: 0 20px 15px;
+    }
+    
+}
+
+@media only screen and (max-width: 782px) {
+    
+    .site-footer-icons {
+        padding: 60px 0 45px;
+    }
+    .footer-social-icon {
+        font-size: 28px;
+        line-height: 24px;
+        margin: 0 8px 15px;
+    }
+    .footer-social-pinterest span {
+        display: none;
+    }
+    
+}
